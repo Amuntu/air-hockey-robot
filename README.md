@@ -13,8 +13,9 @@
 </div>
 
 
-https://github.com/user-attachments/assets/e28b1b93-f0df-4cf0-9158-bdb53851705a
-
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/e28b1b93-f0df-4cf0-9158-bdb53851705a" controls muted width="100%"></video>
+</div>
 
 > [!IMPORTANT]
 > **This repository is currently ROS 2, not ROS 1.** The Python nodes use `rclpy`, the packages declare `ament_python`, and one Arduino sketch uses micro-ROS. The source has intentionally been preserved as requested; a ROS 1 / `catkin` runtime would require a ROS 1 port and is not provided here.
