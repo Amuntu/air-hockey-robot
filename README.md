@@ -12,7 +12,10 @@
 
 </div>
 
-ffmpeg -i "video.mp4" -vf "fps=15,scale=560:-1:flags=lanczos" -loop 0 -q:v 55 walk.webp
+
+![Air Hockey Robot Demo](https://github.com/Amuntu/air-hockey-robot/blob/main/media/video.mp4)
+
+
 
 > [!IMPORTANT]
 > **This repository is currently ROS 2, not ROS 1.** The Python nodes use `rclpy`, the packages declare `ament_python`, and one Arduino sketch uses micro-ROS. The source has intentionally been preserved as requested; a ROS 1 / `catkin` runtime would require a ROS 1 port and is not provided here.
