@@ -13,8 +13,7 @@
 </div>
 
 
-![Air Hockey Robot Demo](https://github.com/Amuntu/air-hockey-robot/blob/main/media/video.mp4)
-
+https://github.com/user-attachments/assets/e28b1b93-f0df-4cf0-9158-bdb53851705a
 
 
 > [!IMPORTANT]
