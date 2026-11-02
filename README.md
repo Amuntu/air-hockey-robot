@@ -2,7 +2,8 @@
 
 # Air Hockey Robot
 
-**A camera-guided air-hockey robot research project combining puck perception, trajectory prediction, ROS 2 communication, and Arduino-based motion control.**
+**A camera-guided air-hockey robot research project combining puck perception, trajectory prediction, ROS 
+2 communication, and Arduino-based motion control.**
 
 ![ROS 2](https://img.shields.io/badge/ROS-2-blue)
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB)
@@ -10,6 +11,8 @@
 ![Status](https://img.shields.io/badge/status-research%20prototype-orange)
 
 </div>
+
+ffmpeg -i "video.mp4" -vf "fps=15,scale=560:-1:flags=lanczos" -loop 0 -q:v 55 walk.webp
 
 > [!IMPORTANT]
 > **This repository is currently ROS 2, not ROS 1.** The Python nodes use `rclpy`, the packages declare `ament_python`, and one Arduino sketch uses micro-ROS. The source has intentionally been preserved as requested; a ROS 1 / `catkin` runtime would require a ROS 1 port and is not provided here.
